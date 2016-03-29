@@ -12,7 +12,7 @@ namespace WebApplication2.Tests
     [TestClass]
     public class ClientePageTests : SeleniumTest
     {
-        public ClientePageTests() : base("WebApplication2") { }
+        public ClientePageTests() : base("AspNetMVCApp") { }
 
         [TestMethod]
         public void DeveExibirErroSeMenorDeIdade()

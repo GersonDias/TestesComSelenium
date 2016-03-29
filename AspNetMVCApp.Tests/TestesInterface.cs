@@ -8,12 +8,14 @@ namespace WebApplication2.Tests
     [TestClass]
     public class TestesInterface : SeleniumTest
     {
-        public TestesInterface() : base("") { }
+        public TestesInterface() : base("AspNetMVCApp") { }
 
         [TestInitialize]
         public void GoToUrl()
         {
             ChromeDriver.Navigate().GoToUrl(this.GetAbsoluteUrl("/cliente/create"));
+
+             
         }
 
         [TestMethod]
@@ -22,7 +24,7 @@ namespace WebApplication2.Tests
             ChromeDriver.FindElement(By.Name("FirstName")).SendKeys("Gerson");
             ChromeDriver.FindElement(By.Name("LastName")).SendKeys("Dias");
             var idade = ChromeDriver.FindElement(By.Name("Idade"));
-            idade.SendKeys("11");
+            idade.SendKeys("17");
             idade.SendKeys(Keys.Tab);
             
             var error = ChromeDriver.FindElement(By.XPath("//span[@for='Idade']"));

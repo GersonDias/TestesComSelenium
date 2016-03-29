@@ -64,7 +64,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebApplication2\AspNetMVCApp.csproj">
+    <ProjectReference Include="..\AspNetMVCApp\AspNetMVCApp.csproj">
       <Project>{C2A1AE6B-1033-4527-B2A1-8B10F8B2AC7D}</Project>
       <Name>AspNetMVCApp</Name>
     </ProjectReference>
