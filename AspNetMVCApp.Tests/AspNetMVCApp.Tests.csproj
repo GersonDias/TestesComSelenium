@@ -60,7 +60,7 @@
     <Compile Include="ClientePageTests.cs" />
     <Compile Include="Pages\Cliente.cs" />
     <Compile Include="SeleniumBase.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="TestesInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
