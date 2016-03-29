@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVCApp", "WebApplication2\AspNetMVCApp.csproj", "{C2A1AE6B-1033-4527-B2A1-8B10F8B2AC7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVCApp", "AspNetMVCApp\AspNetMVCApp.csproj", "{C2A1AE6B-1033-4527-B2A1-8B10F8B2AC7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVCApp.Tests", "WebApplication2.Tests\AspNetMVCApp.Tests.csproj", "{85B496C0-E05C-40B3-81CA-3344CC62DC13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVCApp.Tests", "AspNetMVCApp.Tests\AspNetMVCApp.Tests.csproj", "{85B496C0-E05C-40B3-81CA-3344CC62DC13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
